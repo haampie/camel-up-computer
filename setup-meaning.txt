@@ -1,0 +1,16 @@
+[wiens zet is het]
+
+[geld speler 1] [geld speler 2]
+
+[positie kameel 1] [heeft kameel 1 bewogen]
+[positie kameel 2] [heeft kameel 2 bewogen]
+[positie kameel 3] [heeft kameel 3 bewogen]
+[positie kameel 4] [heeft kameel 4 bewogen]
+[positie kameel 5] [heeft kameel 5 bewogen]
+
+[aantal gepakte kaarten]
+[speler] [stapel]
+...
+[speler] [stapel]
+[speler] [stapel]
+[speler] [stapel]
