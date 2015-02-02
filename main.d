@@ -1,3 +1,7 @@
-main.o: main.cc Game/game.h Game/../Camels/camel.h Game/../Cards/card.h \
- Game/../Players/player.h Game/../Players/../Cards/card.h \
- Players/player.h Camels/camel.h Cards/card.h
+main.o: main.cc main.h Game/Game.h Game/../Utilities/definitions.h \
+ Game/../Camels/Camel.h Game/../Cards/Card.h \
+ Game/../HashTable/HashedPosition.h \
+ Game/../HashTable/../Utilities/definitions.h \
+ Game/../HashTable/HashTable.h Game/../HashTable/HashedPosition.h \
+ Game/../HashTable/../Camels/Camel.h Game/../Players/Player.h \
+ Game/../Players/../Cards/Card.h

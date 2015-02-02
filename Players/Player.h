@@ -1,9 +1,8 @@
 #ifndef PLAYER
 #define PLAYER
 
-#include <iostream>
 #include <vector>
-#include "../Cards/card.h"
+#include "../Cards/Card.h"
 
 typedef struct Player {
 	int money;

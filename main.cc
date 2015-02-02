@@ -1,10 +1,4 @@
-#include <iostream>
-#include <cstdio>
-#include <vector>
-#include "Game/game.h"
-#include "Players/player.h"
-#include "Camels/camel.h"
-#include "Cards/card.h"
+#include "main.h"
 
 int main(int argc, char **argv)
 {
@@ -17,14 +11,11 @@ int main(int argc, char **argv)
 
 	// Create a standard game
 	Game game;
-
-	// TODO: set initial positions
-
 	game.setUpFromFile();
 	game.setDepth(depth);
 	printf("Expected score at depth %d: %2.2f\n", depth, game.think());
 	printf("Number of nodes: %d\n\n", game.getNumberOfNodesSearched());
-
+	game.outputHashResults();
 	game.listBestGameContinuation();
 
     return 0;

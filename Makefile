@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -MMD -g
+CXXFLAGS = -std=c++11 -Wall -Werror -MMD -g
 LINKER = $(CXX)
 LDFLAGS =
 

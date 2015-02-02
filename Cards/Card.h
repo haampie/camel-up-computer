@@ -1,8 +1,6 @@
 #ifndef CARD
 #define CARD
 
-#include <iostream>
-
 typedef struct Card {
     int camel;
     int moneyForWinningCamel;
