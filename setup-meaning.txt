@@ -1,16 +1,16 @@
-[wiens zet is het]
+[who's turn is it?]
 
-[geld speler 1] [geld speler 2]
+[money player 1] [money player 2]
 
-[positie kameel 1] [heeft kameel 1 bewogen]
-[positie kameel 2] [heeft kameel 2 bewogen]
-[positie kameel 3] [heeft kameel 3 bewogen]
-[positie kameel 4] [heeft kameel 4 bewogen]
-[positie kameel 5] [heeft kameel 5 bewogen]
+[position camel 4] [has camel 4 moved? y/n]
+[position camel 3] [has camel 3 moved? y/n]
+[position camel 2] [has camel 2 moved? y/n]
+[position camel 1] [has camel 1 moved? y/n]
+[position camel 0] [has camel 0 moved? y/n]
 
-[aantal gepakte kaarten]
-[speler] [stapel]
+[total number of gathered cards]
+[player] [pile number]
 ...
-[speler] [stapel]
-[speler] [stapel]
-[speler] [stapel]
+[player] [pile number]
+[player] [pile number]
+[player] [pile number]
