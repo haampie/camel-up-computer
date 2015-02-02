@@ -25,6 +25,7 @@ Analyze the situation by running
 Sample output would be:
 
 ```
+> ./main 5
 Rolling gives -0.131 coins
 A card of camel #4 gives 1.055 coins
 A card of camel #3 gives 0.313 coins
