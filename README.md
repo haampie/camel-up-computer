@@ -13,7 +13,7 @@ make
 ```
 
 ## Providing the board situation
-See the file `setup.txt` for an example initial situation, and see setup-meaning.txt for a complete description. NOTE: currently the program assumes you enter the camels from back to front! So the last camel in the race is number `0` and the currently winning camel `5`.
+See the file `setup.txt` for an example initial situation, and see setup-meaning.txt for a complete description. NOTE: currently the program assumes you enter the camels from back to front! So the last camel in the race is numbered `0` and the currently winning camel `5`.
 
 ## Analyze!
 Analyze the situation by running
