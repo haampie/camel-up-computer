@@ -11,10 +11,14 @@ int main(int argc, char **argv)
 
 	// Create a standard game
 	Game game;
+
 	game.setUpFromFile();
 	game.setDepth(depth);
+
+	printf("\n");
 	printf("Expected score at depth %d: %2.2f\n", depth, game.think());
 	printf("Number of nodes: %d\n\n", game.getNumberOfNodesSearched());
+
 	game.outputHashResults();
 	game.listBestGameContinuation();
 

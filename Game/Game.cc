@@ -116,7 +116,7 @@ double Game::move(int depth, bool maximizing, double alpha, double beta)
 
 		if(depth == 0)
 		{
-			printf("Rollen geeft score %f\n", moveScore);
+			printf("Rolling gives %2.3f coins\n", moveScore);
 			score = getBestScore(moveScore, score, maximizing, 0);
 		} else {
 			score = getBestScore(moveScore, score, maximizing);
@@ -150,7 +150,7 @@ double Game::move(int depth, bool maximizing, double alpha, double beta)
 			if(depth == 0)
 			{
 				score = getBestScore(moveScore, score, maximizing, i+1);
-				printf("Kaart %d geeft score %f\n", i, moveScore);
+				printf("A card of camel #%d gives %2.3f coins\n", i, moveScore);
 			} else {
 				score = getBestScore(moveScore, score, maximizing);
 			}
@@ -620,9 +620,9 @@ void Game::listBestGameContinuation()
 {
 	if(bestMoveNumber == 0)
 	{
-		printf("Rol de dobbelstenen\n");
+		printf("Roll the dices!\n");
 		return;
 	}
 
-	printf("Pak een kaart van stapel %d\n", bestMoveNumber-1);
+	printf("Take a card from the pile of camel #%d\n", bestMoveNumber-1);
 }
